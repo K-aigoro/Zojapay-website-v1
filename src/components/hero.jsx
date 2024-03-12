@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import './hero.css';
+import Phone from '../assets/Image/hero-phones.svg';
 
 function Hero() {
   return (
@@ -17,7 +18,7 @@ function Hero() {
             <button className="button">Sign up using Email/Phone </button>
         </div>
         <div className="img">
-          <img src="" alt="" />
+          <img src={Phone} alt="phones" />
         </div>
         </div>
       </div>
