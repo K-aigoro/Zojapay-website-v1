@@ -29,7 +29,7 @@ function Navbar() {
 
         {/* Signup */}
         <div className="">
-            <button className="button">
+            <button className="button1">
                 Sign up
             </button>
         </div>

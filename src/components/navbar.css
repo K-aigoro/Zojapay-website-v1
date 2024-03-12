@@ -5,7 +5,7 @@
   background: transparent;
 
 
-  /* --tw-bg-opacity: 1; */
+  --tw-bg-opacity: 1;
     background-color: rgb(248 250 252 / var(--tw-bg-opacity));
   border: 1px solid gray;
   align-items: center;
@@ -36,7 +36,7 @@ img{
     list-style: none;
 }
 
-.button{
+.button1{
     padding: 10px;
     --tw-border-opacity: 1;
     border-color: rgb(22 32 130 / var(--tw-border-opacity));
