@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Hero from './components/hero';
 import Navbar from './components/navBar';
+import Solution from './components/solution';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,6 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     <Navbar />
     <Hero />
+    <Solution />
+    
     
   </React.StrictMode>,
 )
