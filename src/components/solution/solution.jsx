@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./solution.css";
-import contactless from "../assets/Image/contactless.svg";
-import pos from "../assets/Image/pos.svg";
-import protection from "../assets/Image/protection.svg";
-import stroke from "../assets/Image/stroke-group.png";
+import contactless from "../../assets/Image/contactless.svg";
+import pos from "../../assets/Image/pos.svg";
+import protection from "../../assets/Image/protection.svg";
+import stroke from "../../assets/Image/stroke-group.png";
 
 function Solution() {
   return (

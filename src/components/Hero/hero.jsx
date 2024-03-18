@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import './hero.css';
-import Phone from '../assets/Image/hero-phones.svg';
+import Phone from '../../assets/Image/hero-phones.svg'
+
 
 function Hero() {
   return (
