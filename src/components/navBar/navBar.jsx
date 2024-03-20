@@ -1,7 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-// import Logo from '@/assets/image/zojapay.png"';
-// import Logo from '@/assets/image/zojapay.png';
 import Logo from '../../assets/Image/zojapay.png'
 import './navbar.css';
 
