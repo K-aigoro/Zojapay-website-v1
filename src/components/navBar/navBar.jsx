@@ -17,16 +17,16 @@ function Navbar() {
         <div className="nav">
           <ul className="list">
             <li>
-              <a href="/"> Features</a>
+              <a href="#"> Features</a>
             </li>
             <li>
-              <a href="/"> FAQS </a>
+              <a href="#"> FAQS </a>
             </li>
           </ul>
         </div>
 
         {/* Signup */}
-        <div className="">
+        <div className="nav">
             <button className="button1">
                 Sign up
             </button>
