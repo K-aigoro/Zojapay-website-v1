@@ -1,0 +1,77 @@
+.section {
+    display: flex;
+    padding-top: 88px;
+    flex-direction: column;
+    position: relative;
+    gap: 3rem;
+}
+.safety{
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.h2-text{
+    letter-spacing: -.015rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0;
+}
+.p-text{
+    width: 56%;
+    margin-bottom: 1.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(94, 99, 102,var(--tw-text-opacity));
+}
+.payment{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 2rem;
+}
+
+.smart{
+    display: flex;
+    gap: 85px;
+    flex-direction: column;
+}
+.pic{
+    margin: auto;
+}
+.text-primary{
+        font-weight: 700;
+        margin-top: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(22, 32, 130, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding-top: 9rem;
+        flex-direction: row;
+    }
+    .safety{
+        justify-content: center;
+        flex-basis: 45%;
+        width: auto;
+        
+    }
+    .h2-text{
+        font-size: 2rem;
+    }
+    .payment{
+        gap: 3.5rem;
+        flex-basis: 55%;
+    }
+    .text-primary{
+        font-size: 1.125rem;
+    line-height: 1.75rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .section {
+        gap: 5rem;
+        padding-top: 13rem;
+    }
+}

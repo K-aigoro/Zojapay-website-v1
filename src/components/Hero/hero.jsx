@@ -2,6 +2,7 @@
 import React from "react";
 import './hero.css';
 import Phone from '../../assets/Image/hero-phones.svg'
+import Button from "../button/Button";
 
 
 function Hero() {
@@ -16,7 +17,7 @@ function Hero() {
             <p className="para">
             With ZojaPay, experience ease with our innovative transaction methods using your mobile device
             </p>
-            <button className="button">Sign up using Email/Phone </button>
+            <Button />
         </div>
         <div className="img">
           <img src={Phone} alt="phones" />

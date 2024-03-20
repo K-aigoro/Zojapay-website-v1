@@ -5,6 +5,7 @@ import contactless from "../../assets/Image/contactless.svg";
 import pos from "../../assets/Image/pos.svg";
 import protection from "../../assets/Image/protection.svg";
 import stroke from "../../assets/Image/stroke-group.png";
+import Banner from "../Banner/banner";
 
 function Solution() {
   return (
@@ -78,6 +79,7 @@ function Solution() {
             </article>
           </div>
         </section>
+        <Banner />
       </div>
     </div>
   );

@@ -3,7 +3,6 @@ import React from "react";
 import Hero from "./components/Hero/hero";
 import Navbar from "./components/navBar/navBar";
 import Solution from "./components/solution/solution";
-import Banner from "./components/Banner/banner";
 
 
 function App() {
@@ -12,9 +11,6 @@ function App() {
       <Navbar />
       <Hero />
       <Solution />
-      <Banner />
-       
-
     </>
   );
 }
