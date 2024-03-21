@@ -20,28 +20,25 @@
   gap: 3rem;
   padding-top: 88px;
 }
+
 .text {
-  flex-basis: 60%;
   display: flex;
   gap: 0.5rem;
-
   flex-direction: column;
 }
 
 .text1 {
-  /* font-size: 2.9rem; */
+  font-size: 2rem;
   line-height: 1;
   margin-bottom: 0;
-  width: 80%;
-  font-weight: 500;
   letter-spacing: -0.015em;
 }
 .para {
-  width: 66%;
+  width: 55%;
   margin-top: 0;
   margin-bottom: 1.5rem;
   --tw-text-opacity: 1;
-  color: rgb(94 99 102 / var(--tw-text-opacity));
+  color: rgb(94, 99, 102, var(--tw-text-opacity));
 }
 .button {
   padding: 0.875rem 30px;
@@ -67,6 +64,12 @@
   .para {
     width: 76%;
   }
+  .text{
+    flex-basis: 60%;
+  }
+  .text1{
+    width: 80%;
+  }
 }
 @media (min-width: 1280px) {
   .main {
@@ -76,5 +79,9 @@
     padding-top: 13rem;
     gap: 5rem;
     padding-top: 9rem;
+  }
+  .text1{
+    font-size: 3rem;
+    line-height: 1;
   }
 }

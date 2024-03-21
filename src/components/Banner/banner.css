@@ -47,7 +47,7 @@
 
 @media (min-width: 768px) {
     .section {
-        padding-top: 9rem;
+        padding-top: 8.7rem;
         flex-direction: row;
     }
     .safety{
@@ -71,7 +71,7 @@
 
 @media (min-width: 1280px) {
     .section {
-        gap: 5rem;
+        gap: 4.8rem;
         padding-top: 13rem;
     }
 }
