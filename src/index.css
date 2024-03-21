@@ -31,7 +31,7 @@ a {
 
 
 h1, h2, h3, h4{
-  font-size: 3.2em;
+  /* font-size: 3.2em; */
   line-height: 1.1;
   font-family: 'Rubik', sans-serif;
   color: black;
@@ -39,6 +39,13 @@ h1, h2, h3, h4{
 h1, h2, h3, h4,p{
   margin: 0;
 }
+
+ol, ul, menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 p{
   --tw-text-opacity: 1;
     color: rgb(94 99 102 / var(--tw-text-opacity));
