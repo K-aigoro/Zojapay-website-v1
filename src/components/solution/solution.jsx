@@ -16,7 +16,6 @@ function Solution() {
           <h2 className="h2">One-stop solution for all payments</h2>
           <div className="info">
 
-
             {/* article 1 */}
             <article className="article">
               <div className="stroke">

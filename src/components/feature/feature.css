@@ -1,0 +1,95 @@
+.feat-text {
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 32px;
+
+}
+
+.article-div {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 4rem;
+}
+
+.article-container {
+    grid-column: span 1;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.number {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.custom-number {
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 32 130 / var(--tw-bg-opacity));
+    border-radius: 9999px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+.title {
+    margin-bottom: 0.5rem;
+    --tw-bg-opacity: 1;
+    color: rgb(22 32 130 / var(--tw-bg-opacity));
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+}
+
+.button-div {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+@media (min-width: 640px) {
+    .article-div {
+        gap: 2.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 2.25rem;
+    }
+
+    .article-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .feat-text {
+        font-size: 32px;
+        row-gap: 2.25rem;
+
+    }
+
+    .article-div {
+        column-gap: 2.25rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1280px) {
+    .article-div {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
