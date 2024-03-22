@@ -1,0 +1,134 @@
+.download {
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 32 130 / var(--tw-bg-opacity));
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.download-container {
+    width: 100%;
+}
+
+.download-content {
+    padding-bottom: 2.5rem;
+    display: block;
+}
+
+.download-header {
+    padding: 1rem;
+}
+
+.download-title {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.download-app{
+   display: flex; 
+   align-items: center;
+   gap: 1.25rem;
+   justify-content: space-evenly;
+}
+.download-phone{
+    width: 50%;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto
+}
+.download-stroke{
+    overflow: clip;
+    width: 12rem;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+
+}
+.stroke{
+    display: none;
+}
+
+/* screen size */
+
+
+/* tab screen  */
+@media (min-width: 768px) {
+    .download {
+        padding-top: 10rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        background-color: transparent;
+        margin-top: 0;
+    }
+
+    .download-container {
+        border-radius: 0.375rem;
+        -tw-bg-opacity: 1;
+        background-color: rgb(22 32 130 / var(--tw-bg-opacity));
+    }
+
+    .download-content {
+        padding-bottom: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .download-title {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .download-app{
+        justify-content: flex-start;
+        max-width: 250px;
+    }
+    .download-banner{
+        width: 45%;
+        position: relative;
+    }
+    .download-phone{
+        width: 75%;
+        right: 25%;
+        bottom: -5%;
+        position: absolute;
+    }
+    .download-stroke{
+      top: 0px;  
+      right: -10%;
+
+    }
+    .stroke{
+        display: block;
+    }
+}
+
+/* laptop screen  */
+@media (min-width: 1024px) {
+    .download {
+        padding-top: 12rem;
+        padding-bottom: 5rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .download-container {
+        border-radius: 1rem;
+    }
+
+    .download-title {
+        font-size: 1.525rem;
+        line-height: 2rem;
+    }
+    .download-app{
+        /* max-width: 20rem; */
+        max-width: 100%;
+    }
+    .download-phone{
+        width: 60%;
+        left: 25%;
+
+    }
+}

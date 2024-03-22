@@ -5,7 +5,7 @@ import Button from "../button/Button";
 
 function Feature() {
   return (
-    <div style={{ backgroundColor: "white" }}>
+    <div style={{ backgroundColor: "white", marginTop:'10px'}}>
       <div className="details">
         <section>
           {/* header for the article  */}

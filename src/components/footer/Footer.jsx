@@ -24,7 +24,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* QUICK LINKS */}
+       
         <div className="footer-links">
           <div className="footer-link">
             <h3 className="footer-h3">Product Features</h3>
