@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Logo from '../../assets/Image/zojapay.png';
-import './navbar.css';
-
+import Logo from "../../assets/Image/zojapay.png";
+import { BiMenuAltRight } from "react-icons/bi";
+import "./navbar.css";
 
 function Navbar() {
   return (
@@ -11,6 +11,13 @@ function Navbar() {
         {/* Company logo */}
         <div className="logo">
           <img src={Logo} alt="Zojapay" />
+        </div>
+        <div className="meun">
+        
+          <button>
+            {" "}
+            <BiMenuAltRight  size={24}/>
+          </button>
         </div>
 
         {/* Features & FAQS */}
@@ -27,9 +34,7 @@ function Navbar() {
 
         {/* Signup */}
         <div className="nav">
-            <button className="button1">
-                Sign up
-            </button>
+          <button className="button1">Sign up</button>
         </div>
       </div>
     </header>
