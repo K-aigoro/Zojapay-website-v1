@@ -14,7 +14,7 @@ function Navbar() {
         </div>
         <div className="meun">
         
-          <button>
+          <button className="nav__header">
             {" "}
             <BiMenuAltRight  size={24}/>
           </button>
