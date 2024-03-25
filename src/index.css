@@ -58,15 +58,9 @@ button {
   line-height: inherit;
   color: inherit;
   margin: 0;
-}
-button:hover {
-  border-color: #646cff;
+  border: none;
 }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {

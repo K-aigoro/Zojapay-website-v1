@@ -29,8 +29,8 @@ function Footer() {
           <div className="footer-link">
             <h3 className="footer-h3">Product Features</h3>
             <ul className="footer-ul">
-              <li>Contactless Payments</li>
-              <li>Super Agent</li>
+             <a href=""><li>Contactless Payments</li></a> 
+              <a href=""><li>Super Agent</li></a>
               <li>Fund Wallet</li>
               <li>Pay Bills and Utilities</li>
             </ul>

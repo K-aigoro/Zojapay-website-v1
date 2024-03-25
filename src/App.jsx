@@ -6,6 +6,7 @@ import Solution from "./components/solution/solution";
 import Feature from "./components/feature/feature";
 import Footer from "./components/footer/Footer";
 import Download from "./components/Download/Download";
+import Faq from "./components/Faq/faq";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Solution />
       <Feature />
+      <Faq />
       <Download />
       <Footer />
     </>
