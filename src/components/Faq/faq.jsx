@@ -8,7 +8,7 @@ function Faq() {
   // const [isActive, setIsActive] = useState(false);
   return (
     // faq header
-    <div className="faqs">
+    <div className="faqs" id="faqs">
       <div className="faqs__header">
         <p className="faqs__text">frequently asked questions?</p>
         <h2 className="faqs__h2">We can help!</h2>

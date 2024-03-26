@@ -10,7 +10,7 @@ function Navbar() {
       <div className="header">
         {/* Company logo */}
         <div className="logo">
-          <img src={Logo} alt="Zojapay" />
+          <a href="/"><img src={Logo} alt="Zojapay" /></a>
         </div>
         <div className="meun">
         
@@ -24,10 +24,10 @@ function Navbar() {
         <div className="nav">
           <ul className="list">
             <li>
-              <a href="#"> Features</a>
+              <a href="#features"> Features</a>
             </li>
             <li>
-              <a href="#"> FAQS </a>
+              <a href="#faqs"> FAQS </a>
             </li>
           </ul>
         </div>
