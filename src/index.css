@@ -58,7 +58,7 @@ button {
   line-height: inherit;
   color: inherit;
   margin: 0;
-  border: none;
+  /* border: none; */
 }
 
 
