@@ -13,7 +13,6 @@ function Navbar() {
           <a href="/"><img src={Logo} alt="Zojapay" /></a>
         </div>
         <div className="meun">
-        
           <button className="nav__header">
             {" "}
             <BiMenuAltRight  size={24}/>
